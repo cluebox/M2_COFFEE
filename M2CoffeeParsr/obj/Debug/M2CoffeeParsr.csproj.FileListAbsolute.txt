@@ -1,0 +1,11 @@
+E:\Clue-Box Work\V.Studio\M2CoffeeParsr\M2CoffeeParsr\bin\Debug\M2CoffeeParsr.exe.config
+E:\Clue-Box Work\V.Studio\M2CoffeeParsr\M2CoffeeParsr\bin\Debug\M2CoffeeParsr.exe
+E:\Clue-Box Work\V.Studio\M2CoffeeParsr\M2CoffeeParsr\bin\Debug\M2CoffeeParsr.pdb
+E:\Clue-Box Work\V.Studio\M2CoffeeParsr\M2CoffeeParsr\bin\Debug\SpssLib.dll
+E:\Clue-Box Work\V.Studio\M2CoffeeParsr\M2CoffeeParsr\bin\Debug\SpssLib.xml
+E:\Clue-Box Work\V.Studio\M2CoffeeParsr\M2CoffeeParsr\obj\Debug\M2CoffeeParsr.csprojResolveAssemblyReference.cache
+E:\Clue-Box Work\V.Studio\M2CoffeeParsr\M2CoffeeParsr\obj\Debug\M2CoffeeParsr.exe
+E:\Clue-Box Work\V.Studio\M2CoffeeParsr\M2CoffeeParsr\obj\Debug\M2CoffeeParsr.pdb
+E:\E\Projects-Mayora\M2_COFFEE\M2CoffeeParsr\M2CoffeeParsr\bin\Debug\M2CoffeeParsr.exe.config
+E:\E\Projects-Mayora\M2_COFFEE\M2CoffeeParsr\M2CoffeeParsr\obj\Debug\M2CoffeeParsr.exe
+E:\E\Projects-Mayora\M2_COFFEE\M2CoffeeParsr\M2CoffeeParsr\obj\Debug\M2CoffeeParsr.pdb
