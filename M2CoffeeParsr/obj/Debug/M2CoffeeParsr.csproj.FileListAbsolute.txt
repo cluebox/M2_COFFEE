@@ -9,3 +9,13 @@ E:\Clue-Box Work\V.Studio\M2CoffeeParsr\M2CoffeeParsr\obj\Debug\M2CoffeeParsr.pd
 E:\E\Projects-Mayora\M2_COFFEE\M2CoffeeParsr\M2CoffeeParsr\bin\Debug\M2CoffeeParsr.exe.config
 E:\E\Projects-Mayora\M2_COFFEE\M2CoffeeParsr\M2CoffeeParsr\obj\Debug\M2CoffeeParsr.exe
 E:\E\Projects-Mayora\M2_COFFEE\M2CoffeeParsr\M2CoffeeParsr\obj\Debug\M2CoffeeParsr.pdb
+D:\GitHub\Repo\M2_Coffee\M2CoffeeParsr\bin\Debug\M2CoffeeParsr.exe.config
+D:\GitHub\Repo\M2_Coffee\M2CoffeeParsr\bin\Debug\M2CoffeeParsr.exe
+D:\GitHub\Repo\M2_Coffee\M2CoffeeParsr\bin\Debug\M2CoffeeParsr.pdb
+D:\GitHub\Repo\M2_Coffee\M2CoffeeParsr\bin\Debug\SpssLib.dll
+D:\GitHub\Repo\M2_Coffee\M2CoffeeParsr\bin\Debug\SpssLib.xml
+D:\GitHub\Repo\M2_Coffee\M2CoffeeParsr\obj\Debug\M2CoffeeParsr.csprojAssemblyReference.cache
+D:\GitHub\Repo\M2_Coffee\M2CoffeeParsr\obj\Debug\M2CoffeeParsr.csproj.CoreCompileInputs.cache
+D:\GitHub\Repo\M2_Coffee\M2CoffeeParsr\obj\Debug\M2CoffeeParsr.csproj.CopyComplete
+D:\GitHub\Repo\M2_Coffee\M2CoffeeParsr\obj\Debug\M2CoffeeParsr.exe
+D:\GitHub\Repo\M2_Coffee\M2CoffeeParsr\obj\Debug\M2CoffeeParsr.pdb

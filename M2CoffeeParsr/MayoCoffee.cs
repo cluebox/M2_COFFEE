@@ -16,16 +16,16 @@ namespace M2CoffeeParsr
         {
          int SurveyID = 600523;
             //string SurveyPeriod = "2014-09-30";//survey period
-            string SurveyPeriod = "2018-12-31";
+            string SurveyPeriod = "2019-03-31";
             string year = getYear(SurveyPeriod);
             string country = "INDONESIA";//survey country
             Insertion_m2coffee iobj = new Insertion_m2coffee();
             string questions = "iobs,weighting,r4,r13,r1,r6,r12,period,r21a,r21b_1,r21b_7,r21b_55,r21b_78,r21b_101,r21b_106,r21b_133,r21b_160,r21b_162,r21b_163,r21b_166,r21b_168,r21b_176,r24a_1,r24a_7,r24a_55,r24a_78,r24a_101,r24a_106,r24a_133,r24a_160,r24a_162,r24a_163,r24a_166,r24a_168,r24a_176,r21d,r21e_1,r21e_7,r21e_55,r21e_78,r21e_101,r21e_106,r21e_133,r21e_160,r21e_162,r21e_163,r21e_166,r21e_168,r21e_176,r24b_1,r24b_7,r24b_55,r24b_78,r24b_101,r24b_106,r24b_133,r24b_160,r24b_162,r24b_163,r24b_166,r24b_168,r24b_176,r21c,r25c,r123,r17_1,r17_2,r17_3,r17_4,r17_5,r17_6,r17_7,r17_8,r17_9,r17_10,r17_11,r17_12,r17_13,r17_14,r17_15,r18a_1,r18a_2,r18a_3,r18a_4,r18a_5,r18a_6,r18br1,r18br2,r18br3,r18br4,r18br5,r18br6,r15_1,r15_2,r15_3,r15_4,r15_5,r15_6,r15_7,r16,r25b_1,r25b_7,r25b_55,r25b_78,r25b_101,r25b_106,r25b_133,r25b_160,r25b_162,r25b_163,r25b_166,r25b_168,r25b_176,r25a_1,r25a_7,r25a_55,r25a_78,r25a_101,r25a_106,r25a_133,r25a_160,r25a_162,r25a_163,r25a_166,r25a_168,r25a_176,r29a,r29b,r124,r31a,r31b,r125,r33a,r33b,r126,r35a,r35b,r127,r37a,r37b,r128,r27h1_34,r27h1_35,r27h1_23,r27h1_10,r27h1_25,r27h1_30,r27h3_34,r27h3_35,r27h3_23,r27h3_10,r27h3_25,r27h3_30,r27h4_34,r27h4_35,r27h4_23,r27h4_10,r27h4_25,r27h4_30,r27h7_34,r27h7_35,r27h7_23,r27h7_10,r27h7_25,r27h7_30,r27h9_34,r27h9_35,r27h9_23,r27h9_10,r27h9_25,r27h9_30,r21anett,r21b_1,r21b_55,r21b_101,r21b_133,r21b_160,r24a_1,r24a_55,r24a_101,r24a_133,r24a_160,r21dnett,r21e_1,r21e_55,r21e_101,r21e_133,r21e_160,r24b_1,r24b_55,r24b_101,r24b_133,r24b_160,r25a_1,r25a_55,r25a_101,r25a_133,r25a_160,r25b_1,r25b_55,r25b_101,r25b_133,r25b_160,r21cnett,r25cnett,r123nett,r20_1,r20_2,r20_3,r20_4,r20_5,r20_6,r21b_266,r21b_267,r21b_268,r24a_266,r24a_267,r24a_268,r21e_266,r21e_267,r21e_268,r24b_266,r24b_267,r24b_268,r25b_266,r25b_267,r25b_268,r25a_266,r25a_267,r25a_268,r21b_281,r24a_281,r21e_281,r24b_281,r25a_281,r25b_281,r21b_64,r24a_64,r21e_64,r24b_64,r25a_64,r25b_64,r21b_272,r24a_272,r21e_272,r24b_272,r25b_272,r25a_272,r25d_1,r25d_7,r25d_55,r25d_78,r25d_101,r25d_106,r25d_133,r25d_160,r25d_162,r25d_163,r25d_166,r25d_168,r25d_176,r25d_266,r25d_267,r25d_268,r25d_272,r25d_64,r25e_1,r25e_7,r25e_55,r25e_78,r25e_101,r25e_106,r25e_133,r25e_160,r25e_162,r25e_163,r25e_166,r25e_168,r25e_176,r25e_266,r25e_267,r25e_268,r25e_272,r25e_64,r25e_281,r25d_281";// dashboard variable value
             //string questions = "iobs,weighting,period,r21a,r21b_64,r24a_64,r21d,r21e_64,r24b_64,r25a_64,r25b_64,r25c,r123,r21b_272,r24a_272,r21e_272,r24b_272,r25b_272,r25a_272,r25d_1 ,r25d_7 ,r25d_55 ,r25d_78 ,r25d_101 ,r25d_106 ,r25d_133 ,r25d_160 ,r25d_162 ,r25d_163 ,r25d_166 ,r25d_168 ,r25d_176 ,r25d_266 ,r25d_267 ,r25d_268 ,r25d_272 ,r25d_64 ,r25e_1 ,r25e_7 ,r25e_55 ,r25e_78 ,r25e_101 ,r25e_106 ,r25e_133 ,r25e_160 ,r25e_162 ,r25e_163 ,r25e_166 ,r25e_168 ,r25e_176 ,r25e_266 ,r25e_267 ,r25e_268 ,r25e_272 ,r25e_64 ,r25e_281 ,r25d_281";
-            //string questions = "r25d_1,r25d_7,r25d_55,r25d_78,r25d_101,r25d_106,r25d_133,r25d_160,r25d_162,r25d_163,r25d_166,r25d_168,r25d_176,r25d_266,r25d_267,r25d_268,r25d_272,r25d_64,r25e_1,r25e_7,r25e_55,r25e_78,r25e_101,r25e_106,r25e_133,r25e_160,r25e_162,r25e_163,r25e_166,r25e_168,r25e_176,r25e_266,r25e_267,r25e_268,r25e_272,r25e_64,r25e_281,r25d_281";
+            //string questions = "iobs,weighting,r25d_1,r25d_7,r25d_55,r25d_78,r25d_101,r25d_106,r25d_133,r25d_160,r25d_162,r25d_163,r25d_166,r25d_168,r25d_176,r25d_266,r25d_267,r25d_268,r25d_272,r25d_64,r25e_1,r25e_7,r25e_55,r25e_78,r25e_101,r25e_106,r25e_133,r25e_160,r25e_162,r25e_163,r25e_166,r25e_168,r25e_176,r25e_266,r25e_267,r25e_268,r25e_272,r25e_64,r25e_281,r25d_281";
             string[] spss_variable_name = questions.Split(',');
             SpssReader spssDataset;
-            using (FileStream fileStream = new FileStream(@"C:\Users\rahul\Desktop\M2 coffee_Dec2018\M2Coffee_Dec2018.sav", FileMode.Open, FileAccess.Read, FileShare.Read, 2048 * 10, FileOptions.SequentialScan))
+            using (FileStream fileStream = new FileStream(@"D:\spssparsing\M2Coffee\M2coffeeMarch19.sav", FileMode.Open, FileAccess.Read, FileShare.Read, 2048 * 10, FileOptions.SequentialScan))
             {
                 spssDataset = new SpssReader(fileStream); // Create the reader, this will read the file header
                 foreach (string spss_v in spss_variable_name)
@@ -1729,6 +1729,7 @@ namespace M2CoffeeParsr
                                     case "r25d_281":
                                         {
                                             ConsP1WToraCafe = Convert.ToString(record.GetValue(variable));
+                                            
                                             break;
                                         }
                                 }
